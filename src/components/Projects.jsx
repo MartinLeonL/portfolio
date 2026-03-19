@@ -103,9 +103,9 @@ export default function Projects() {
       <div className = "absolute mt-8 left-0 w-full flex items-end justify-center gap-24 md:gap-200">
         <Gnome
           sizes = "w-15 sm:w-16 md:w-21 aspect-[21/17]"
-          idleFrames = {1} 
+          idleFrames = {2} 
           actionFrames = {10}
-          idleFrameDuration = {1}
+          idleFrameDuration = {.1}
           actionFrameDuration = {.3}
           idleLight = {DuckSleepingIdleLight}
           idleDark = {DuckSleepingIdleDark}
@@ -114,9 +114,9 @@ export default function Projects() {
         />
         <Gnome
           sizes = "w-10 sm:w-14 md:w-16 aspect-[16/21]"
-          idleFrames = {1} 
+          idleFrames = {2} 
           actionFrames = {5}
-          idleFrameDuration = {1}
+          idleFrameDuration = {.1}
           actionFrameDuration = {1}
           idleLight = {GnomeSleepingIdleLight}
           idleDark = {GnomeSleepingIdleDark}
