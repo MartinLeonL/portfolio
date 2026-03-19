@@ -17,11 +17,11 @@ import DuckSleepingIdleDark from "../assets/Ducks/DuckSleeping/DuckSleeping-idle
 import DuckSleepingActionLight from "../assets/Ducks/DuckSleeping/DuckSleeping-action.png";
 import DuckSleepingActionDark from "../assets/Ducks/DuckSleeping/DuckSleeping-action-dark.png";
 
-import logoWizzOff from "../assets/logos/Logo-WizzOff.png";
-import logoCalenPal from "../assets/logos/Logo-CalenPal.png";
-import logoCompiler from "../assets/logos/Logo-Compiler.png";
-import logoPortfolio from "../assets/logos/Logo-Portfolio.png";
-import logoLockdownRadar from "../assets/logos/Logo-LockdownRadar.png";
+import logoWizzOff from "../assets/Logos/Logo-WizzOff.png";
+import logoCalenPal from "../assets/Logos/Logo-CalenPal.png";
+import logoCompiler from "../assets/Logos/Logo-Compiler.png";
+import logoPortfolio from "../assets/Logos/Logo-Portfolio.png";
+import logoLockdownRadar from "../assets/Logos/Logo-LockdownRadar.png";
 
 const PROJECTS = [
   {
@@ -66,8 +66,8 @@ const PROJECTS = [
     stack: ["React", "Tailwind CSS", "Vite"],
     description:
       "My first ever portfolio website! I wanted a fun and interactive site so I made a fantasy forest with creatures all around that interact when clicked! All pixel art designs are made by me and the website itself I built using React and styled with Tailwind CSS.",
-    href: "https://www.figma.com/design/4qggzlpxc7PdCy1hNwpDi4/Portfolio?node-id=0-1&t=ZZI9LlcjsFj45HmV-1",
-    linkLabel: "Figma →",
+    href: "https://github.com/MartinLeonL/portfolio",
+    linkLabel: "GitHub →",
   },
 ];
 
