@@ -22,6 +22,7 @@ import logoCalenPal from "../assets/Logos/Logo-CalenPal.png";
 import logoCompiler from "../assets/Logos/Logo-Compiler.png";
 import logoPortfolio from "../assets/Logos/Logo-Portfolio.png";
 import logoLockdownRadar from "../assets/Logos/Logo-LockdownRadar.png";
+import logoDuckTracks from "../assets/Logos/Logo-DuckTracks.png";
 
 const PROJECTS = [
   {
@@ -68,6 +69,15 @@ const PROJECTS = [
       "My first ever portfolio website! I wanted a fun and interactive site so I made a fantasy forest with creatures all around that interact when clicked! All pixel art designs are made by me and the website itself I built using React and styled with Tailwind CSS.",
     href: "https://github.com/MartinLeonL/portfolio",
     linkLabel: "GitHub →",
+  },
+  {
+    name: "DuckTracks",
+    logo: logoDuckTracks,
+    stack: ["React", "Tailwind CSS", "Vite", "Supabase"],
+    description:
+      "A personal web app to stay on track with my tasks! It allows me to create tasks and complete them for coins, which I then use to buy ducks to add to my collection! There are around 50 unique ducks to collect all designed by me, with more ducks being added constantly.",
+    href: "https://duck-tracks.vercel.app/",
+    linkLabel: "Website →",
   },
 ];
 
