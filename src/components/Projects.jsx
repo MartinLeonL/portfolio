@@ -23,6 +23,7 @@ import logoCompiler from "../assets/Logos/Logo-Compiler.png";
 import logoPortfolio from "../assets/Logos/Logo-Portfolio.png";
 import logoLockdownRadar from "../assets/Logos/Logo-LockdownRadar.png";
 import logoDuckTracks from "../assets/Logos/Logo-DuckTracks.png";
+import logoPlayVerse from "../assets/Logos/Logo-PlayVerse.png";
 
 const PROJECTS = [
   {
@@ -78,6 +79,15 @@ const PROJECTS = [
       "A personal web app to stay on track with my tasks! It allows me to create tasks and complete them for coins, which I then use to buy ducks to add to my collection! There are around 50 unique ducks to collect all designed by me, with more ducks being added constantly.",
     href: "https://duck-tracks.vercel.app/",
     linkLabel: "Website →",
+  },
+  {
+    name: "PlayVerse",
+    logo: logoPlayVerse,
+    stack: ["React", "Vite", "Node.js", "Jest", "MongoDB", "Google OAuth", "Groq"],
+    description:
+      "A full-stack media platform for discovering and rating movies, TV shows, music, and games! Users can browse, rate and review titles, build custom mixed-media playlists, and get personalized recommendations from an AI assistant.",
+    href: "https://github.com/MartinLeonL/PlayVerse",
+    linkLabel: "GitHub →",
   },
 ];
 
